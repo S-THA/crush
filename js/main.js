@@ -103,7 +103,7 @@ $('#yes').click(function() {
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='happy nếu de'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -120,11 +120,11 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: CONFIG.btnAccept,
                 background: '#fff url("img/iput-bg.jpg")',
-                title: CONFIG.mess,
-                text: CONFIG.messDesc,
+                title: CONFIG.tha,
+                text: CONFIG.nga,
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = CONFIG.messLink;
+                    window.location = CONFIG.Link;
                   }
             })
         }
